@@ -1,216 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yuni Fuchioka</title>
-    <meta name="description" content="Yuni Fuchioka's webpage.">
-    
-    <meta property="og:title" content="Yuni Fuchioka">
-    <meta property="og:description" content="Yuni Fuchioka's webpage.">
-    <meta property="og:image" content="static/profile_picture.jpg">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="static/profile_picture.jpg">
-    <meta property="og:url" content="https://yunifuchioka.github.io/">
-    <link rel="canonical" href="https://yunifuchioka.github.io/">
 
-    <!-- Website template taken from https://github.com/ZhaomingXie/ZhaomingXie.github.io -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yuni Fuchioka</title>
+  <meta name="description" content="Yuni Fuchioka's webpage.">
 
-    <style>
-      :root {
-        --accent-color: rgb(6, 69, 173);
-        --fg-color: rgb(32, 33, 34);
-        --bg-color: #fff;
-        --max-content-width: 800px;
-      }
+  <meta property="og:title" content="Yuni Fuchioka">
+  <meta property="og:description" content="Yuni Fuchioka's webpage.">
+  <meta property="og:image" content="static/profile_picture.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="static/profile_picture.jpg">
+  <meta property="og:url" content="https://yunifuchioka.github.io/">
+  <link rel="canonical" href="https://yunifuchioka.github.io/">
 
-      body {
-        font-family: sans-serif;
-        font-size: calc(12px + 0.05vw);
-        color: var(--fg-color);
-        background-color: var(--bg-color);
-        font-weight: 400;
-        -webkit-font-smoothing: antialiased;
-      }
+  <!-- Website template taken from https://github.com/ZhaomingXie/ZhaomingXie.github.io -->
 
-      main {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        width: 90vw;
-        max-width: var(--max-content-width);
-        padding: 2rem 0;
-        background-color: var(--bg-color);
-        min-height: 90vh;
-        
-      }
+  <style>
+    :root {
+      --accent-color: rgb(6, 69, 173);
+      --fg-color: rgb(32, 33, 34);
+      --bg-color: #fff;
+      --max-content-width: 800px;
+    }
 
-      h1, h2 {
-        font-weight: 600;
-        margin-top: 1.3em;
-      }
+    body {
+      font-family: sans-serif;
+      font-size: calc(12px + 0.05vw);
+      color: var(--fg-color);
+      background-color: var(--bg-color);
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+    }
 
-      h1 {
-        font-size: 2.2em;
-      }
+    main {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 90vw;
+      max-width: var(--max-content-width);
+      padding: 2rem 0;
+      background-color: var(--bg-color);
+      min-height: 90vh;
 
-      h2 {
-        font-size: 1.9em;
-      }
+    }
 
-      p, li {
-        font-size: 1.3em;
-        line-height: 1.6;
-      }
+    h1,
+    h2 {
+      font-weight: 600;
+      margin-top: 1.3em;
+    }
 
-      ul {
-        padding-left: 2em;
-      }
+    h1 {
+      font-size: 2.2em;
+    }
 
-      #publist {
-        padding-left: 0; 
-      }
+    h2 {
+      font-size: 1.9em;
+    }
 
-      #publist > * {
-        margin-bottom: 1.2em;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-      }
+    p,
+    li {
+      font-size: 1.3em;
+      line-height: 1.6;
+    }
 
-      a {
-        text-decoration: underline;
-        color: var(--fg-color);
-      }
+    ul {
+      padding-left: 2em;
+    }
 
-      img {
-        width: 100%;
-        height: auto;
-      }
+    #publist {
+      padding-left: 0;
+    }
 
-      .pub-fig {
-        flex: 0.6 1 20%;
-        min-width: 120px;
-        max-width: 200px;
-        margin-right: 2%;
-      }
-      
-      .pub-text {
-        flex: 1 1 75%;
-      }
+    #publist>* {
+      margin-bottom: 1.2em;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
 
-    </style>
+    a {
+      text-decoration: underline;
+      color: var(--fg-color);
+    }
 
-  </head>
+    img {
+      width: 100%;
+      height: auto;
+    }
 
-  <body>
-    <main>
-      <div>
-        <div style="display: inline-block; vertical-align: middle; padding-right: 1%; width: 58%">
-          <h1 style="margin: 0;">Yuni Fuchioka</h1>
-          <p style="margin: 0 0 1em 0;">fuchioka@cs.ubc.ca</p>
-          <p style="font-size: 1.4em; text-align: justify;">
-            I am a Master's Student in the Department of Computer Science at the University of British Columbia, supervised by Professor Michiel van de Panne.
-            My research interests are in the control of dynamic and underactuated robots such as legged robots, with particular interest in incorporating underlying physics and control theory principles within reinforcement learning-based techniques.
-          </p>
-        </div>
-        <div style="display: inline-block; vertical-align: middle; padding-left: 1%; width: 38%;">
-          <img alt="portrait" src="static/profile_picture.jpg">
-        </div>
+    .pub-fig {
+      flex: 0.6 1 20%;
+      min-width: 120px;
+      max-width: 200px;
+      margin-right: 2%;
+    }
+
+    .pub-text {
+      flex: 1 1 75%;
+    }
+  </style>
+
+</head>
+
+<body>
+  <main>
+    <div>
+      <div style="display: inline-block; vertical-align: middle; padding-right: 1%; width: 58%">
+        <h1 style="margin: 0;">Yuni Fuchioka</h1>
+        <p style="margin: 0 0 1em 0;">fuchioka@cs.ubc.ca</p>
+        <p style="font-size: 1.4em; text-align: justify;">
+          I am a Master's Student in the Department of Computer Science at the University of British Columbia,
+          supervised by Professor Michiel van de Panne.
+          My research interests are in the control of dynamic and underactuated robots such as legged robots, with
+          particular interest in incorporating underlying physics and control theory principles within reinforcement
+          learning-based techniques.
+        </p>
       </div>
-      <p style="font-size: 1.4em; text-align: justify;">
-        Prior to my Master's, I completed my undergraduate degree in Engineering Physics at the University of British Columbia, obtaining a fundational background in Mechanical, Electrical, and Software Engineering, and its connection to physics.
-        I have also done an 11-month internship at Honda Research Institute/Honda R&D in Japan, working with the Humanoid Robotics Group on bipedal locomotion.
-      </p>
-      <p>
-        <a href="https://www.linkedin.com/in/yuni-fuchioka/">LinkedIn</a>
-        /
-        <a href="https://github.com/yunifuchioka">GitHub</a>
-      </p>
-      <h2>Research</h2>
-      <ul id="publist">
-        <li>
-          <div class="pub-fig">
-            <img alt="opt-mimic-thumbnail" src="projects/opt-mimic/opt-mimic-thumbnail.png">
+      <div style="display: inline-block; vertical-align: middle; padding-left: 1%; width: 38%;">
+        <img alt="portrait" src="static/profile_picture.jpg">
+      </div>
+    </div>
+    <p style="font-size: 1.4em; text-align: justify;">
+      Prior to my Master's, I completed my undergraduate degree in Engineering Physics at the University of British
+      Columbia, obtaining a fundational background in Mechanical, Electrical, and Software Engineering, and its
+      connection to physics.
+      I have also done an 11-month internship at Honda Research Institute/Honda R&D in Japan, working with the Humanoid
+      Robotics Group on bipedal locomotion.
+    </p>
+    <p>
+      <a href="https://www.linkedin.com/in/yuni-fuchioka/">LinkedIn</a>
+      /
+      <a href="https://github.com/yunifuchioka">GitHub</a>
+    </p>
+    <h2>Research</h2>
+    <ul id="publist">
+      <li>
+        <div class="pub-fig">
+          <img alt="opt-mimic-thumbnail" src="projects/opt-mimic/opt-mimic-thumbnail.png">
+        </div>
+        <div class="pub-text">
+          <span style="font-weight: 600;">OPT-Mimic: Imitation of Optimized Trajectories for Dynamic Quadruped
+            Behaviors.</span>
+          <br><span style="font-weight: 600;">Yuni Fuchioka</span>, Zhaoming Xie, Michiel van de Panne.
+          <br><span style="font-style: italic;">Under Review</span>
+          <div>
+            Project Page (coming soon)
+            /
+            <a href="projects/opt-mimic/opt-mimic-v1.pdf">Paper</a>
+            /
+            <a href="https://youtu.be/p2V8kKPetpw">Video</a>
           </div>
-          <div class="pub-text">
-            <span style="font-weight: 600;">OPT-Mimic: Imitation of Optimized Trajectories for Dynamic Quadruped Behaviors.</span>
-            <br><span style="font-weight: 600;">Yuni Fuchioka</span>, Zhaoming Xie, Michiel van de Panne.
-            <br><span style="font-style: italic;">Under Review</span>
-            <div>
-              Project Page (coming soon)
-              /
-              <a href="projects/opt-mimic/opt-mimic-v1.pdf">Paper</a>
-              /
-              <a href="https://youtu.be/p2V8kKPetpw">Video</a>
-            </div>
+        </div>
+      </li>
+    </ul>
+    <h2>Robots</h2>
+    <ul id="publist">
+      <li>
+        <div class="pub-fig">
+          <img alt="solo8-thumbnail" src="projects/solo8/solo8.jpg">
+        </div>
+        <div class="pub-text" style="text-align: justify;">
+          <span style="font-weight: 600; ">Open Dynamic Robot Initiative (ODRI) Solo 8 Quadruped</span><br>
+          As part of my Master's, I built the Solo 8 robot designed by ODRI, the first in-house quadruped robot in my
+          lab at UBC.
+          This involved sourcing components from 20 different suppliers from 6 countries, physically assembling the
+          robot according to ODRI's instructions, and writing the software infrastructure to enable testing of custom
+          controllers.
+          <div>
+            <a href="https://youtu.be/mxktxGeuE_A">Video</a>
+            /
+            <a href="https://github.com/yunifuchioka/opt-mimic-robot-deploy">Code</a>
           </div>
-        </li>
-      </ul>
-      <h2>Robots</h2>
-      <ul id="publist">
-        <li>
-          <div class="pub-fig">
-            <img alt="solo8-thumbnail" src="projects/solo8/solo8.jpg">
+          </span>
+        </div>
+      </li>
+      <li>
+        <div class="pub-fig">
+          <img alt="bicopter-thumbnail" src="projects/bicopter/bicopter.JPG">
+        </div>
+        <div class="pub-text" style="text-align: justify;">
+          <span style="font-weight: 600;">Bicopter Drone</span><br>
+          As a personal hobby project, I designed and built a radio controlled drone that flies using only two
+          propellers.
+          Rather than using an off-the-shelf flight controller, I wrote my own PD controller using an Arduino and a
+          cheap IMU.
+          The body was made out of balsa wood since I had limited access to fabrication tools.
+          <div>
+            <a href="https://github.com/yunifuchioka/Bicopter">Website+Code</a>
+            /
+            <a href="https://youtu.be/fx83XLyZHBg">Video</a>
+            /
+            <a
+              href="https://cad.onshape.com/documents/2522e998c9fab8f022bfa03c/w/0178b92114d21ebaa118384f/e/408eafad1609fd8326af6cff?renderMode=0&uiState=6345f4065453a95c15e37593">CAD</a>
           </div>
-          <div class="pub-text" style="text-align: justify;">
-            <span style="font-weight: 600; ">Open Dynamic Robot Initiative (ODRI) Solo 8 Quadruped</span><br>
-            As part of my Master's, I built the Solo 8 robot designed by ODRI, the first in-house quadruped robot in my lab at UBC.
-            This involved sourcing components from 20 different suppliers from 6 countries, physically assembling the robot according to ODRI's instructions, and writing the software infrastructure to enable testing of custom controllers.
-            <div>
-              <a href="https://youtu.be/mxktxGeuE_A">Video</a>
-              /
-              <a href="https://github.com/yunifuchioka/opt-mimic-robot-deploy">Code</a>
-            </div>
-            </span>
+        </div>
+      </li>
+      <li>
+        <div class="pub-fig">
+          <img alt="robot-comp-thumbnail" src="projects/renez/renez.jpg">
+        </div>
+        <div class="pub-text" style="text-align: justify;">
+          <span style="font-weight: 600;">Autonomous Robot Competition</span><br>
+          I designed and built an autonomous robot within a 4-member team, for a course project/competition.
+          I did much of the mechanical design for the robot, which consisted mostly of laser-cut and glued hardwood.
+          The robot was able to complete all of the required competition tasks and placed 4th out of 16 teams.
+          <div>
+            <a href="https://zenerenez.github.io/">Website</a>
+            /
+            <a href="https://youtu.be/e8PEbymW4jM">Video</a>
+            /
+            <a
+              href="https://cad.onshape.com/documents/3d1b02bad6b019b4514b4644/w/90f15aee67f5c28e5026a4dd/e/734252ac5c9204af3335fca4?renderMode=0&uiState=6345f4922e7ee336a6e7714a">CAD</a>
           </div>
-        </li>
-        <li>
-          <div class="pub-fig">
-            <img alt="bicopter-thumbnail" src="projects/bicopter/bicopter.JPG">
-          </div>
-          <div class="pub-text" style="text-align: justify;">
-            <span style="font-weight: 600;">Bicopter Drone</span><br>
-            As a personal hobby project, I designed and built a radio controlled drone that flies using only two propellers.
-            Rather than using an off-the-shelf flight controller, I wrote my own PD controller using an Arduino and a cheap IMU.
-            The body was made out of balsa wood since I had limited access to fabrication tools.
-            <div>
-              <a href="https://github.com/yunifuchioka/Bicopter">Website+Code</a>
-              /
-              <a href="https://youtu.be/fx83XLyZHBg">Video</a>
-              /
-              <a href="https://cad.onshape.com/documents/2522e998c9fab8f022bfa03c/w/0178b92114d21ebaa118384f/e/408eafad1609fd8326af6cff?renderMode=0&uiState=6345f4065453a95c15e37593">CAD</a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="pub-fig">
-            <img alt="robot-comp-thumbnail" src="projects/renez/renez.jpg">
-          </div>
-          <div class="pub-text" style="text-align: justify;">
-            <span style="font-weight: 600;">Autonomous Robot Competition</span><br>
-            I designed and built an autonomous robot within a 4-member team, for a course project/competition.
-            I did much of the mechanical design for the robot, which consisted mostly of laser-cut and glued hardwood.
-            The robot was able to complete all of the required competition tasks and placed 4th out of 16 teams.
-            <div>
-              <a href="https://zenerenez.github.io/">Website</a>
-              /
-              <a href="https://youtu.be/e8PEbymW4jM">Video</a>
-              /
-              <a href="https://cad.onshape.com/documents/3d1b02bad6b019b4514b4644/w/90f15aee67f5c28e5026a4dd/e/734252ac5c9204af3335fca4?renderMode=0&uiState=6345f4922e7ee336a6e7714a">CAD</a>
-            </div>
-          </div>
-        </li>
-          </li>
-      </ul>
-      <h2>Personal</h2>
-      <ul style="text-align: justify;">
-        <li>My family is Japanese, but I was born and raised outside of Japan. I received all of my education in English, in the US and Canada. I consider Vancouver to be my hometown.</li>
-        <li>I speak Japanese fluently—I use it exclusively to communicate with my parents, and I was able to work and live in Tokyo for a year without it being a major impediment. However, my handwriting skills are quite poor due to my lack of formal education in the language.</li>
-        <li>Outside of robotics, I love to play, listen to, transcribe, and compose music. I have played trombone in various classical and jazz ensembles for about 15 years.</li>
-      </ul>
-    </main>
-  </body>
+        </div>
+      </li>
+      </li>
+    </ul>
+    <h2>Personal</h2>
+    <ul style="text-align: justify;">
+      <li>My family is Japanese, but I was born and raised outside of Japan. I received all of my education in English,
+        in the US and Canada. I consider Vancouver to be my hometown.</li>
+      <li>I speak Japanese fluently—I use it exclusively to communicate with my parents, and I was able to work and live
+        in Tokyo for a year without it being a major impediment. However, my handwriting skills are quite poor due to my
+        lack of formal education in the language.</li>
+      <li>Outside of robotics, I love to play, listen to, transcribe, and compose music. I have played trombone in
+        various classical and jazz ensembles for about 15 years.</li>
+    </ul>
+  </main>
+</body>
+
 </html>
